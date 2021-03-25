@@ -33,3 +33,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define EE_HANDS
 
 #define RGBLIGHT_LIMIT_VAL 128
+
+#define TAP_CODE_DELAY 40

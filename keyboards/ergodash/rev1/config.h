@@ -65,10 +65,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* ws2812 RGB LED */
 #define RGB_DI_PIN D3
-#define RGBLIGHT_ANIMATIONS
+/* #define RGBLIGHT_ANIMATIONS */
+#define RGBLIGHT_EFFECT_BREATHING
+#define RGBLIGHT_EFFECT_KNIGHT
+#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+#define RGBLIGHT_EFFECT_SNAKE
 #define RGBLED_NUM 24
 #define RGBLIGHT_SPLIT
 #define RGBLED_SPLIT { 12, 12 }    // Number of LEDs
+
+#define RGBLIGHT_SLEEP
 
 // The LEDs on the slave half go in reverse order
 #define RGBLIGHT_LED_MAP { 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, \
